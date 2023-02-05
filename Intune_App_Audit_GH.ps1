@@ -188,7 +188,7 @@ $Resource = "deviceAppManagement/mobileApps"
     try {
         
     $uri = "https://graph.microsoft.com/$graphApiVersion/$($Resource)"
-    (Invoke-RestMethod -Uri $uri –Headers $authToken –Method Get).Value | ? { (!($_.'@odata.type').Contains("managed")) }
+    (Invoke-RestMethod -Uri $uri â€“Headers $authToken â€“Method Get).Value | ? { (!($_.'@odata.type').Contains("managed")) }
 
     }
     
@@ -248,7 +248,7 @@ $Resource = "deviceAppManagement/mobileApps/$ApplicationId/?`$expand=categories,
         else {
         
         $uri = "https://graph.microsoft.com/$graphApiVersion/$($Resource)"
-        (Invoke-RestMethod -Uri $uri –Headers $authToken –Method Get)
+        (Invoke-RestMethod -Uri $uri â€“Headers $authToken â€“Method Get)
         
         }
     
