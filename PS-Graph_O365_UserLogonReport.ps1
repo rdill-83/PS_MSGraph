@@ -14,7 +14,7 @@ $Properties = @(
 )
  
 #Get All users along with the properties
-$AllUsers = Get-MgUser -All -Property $Properties #| Select-Object $Properties
+$AllUsers = Get-MgUser -All -Property $Properties 
  
 $SigninLogs = @()
 ForEach ($User in $AllUsers)
