@@ -1,4 +1,5 @@
-# Intunes_App_Audit
+# Intune_App_Audit.ps1
+# Powershell script which queries MSGraph & inventories all Intune / Endpoint Manager applications & their associated groups / assignment policies / platforms.
 
 # Intunes / EPM - App Assignment & App Properties Audit
 
