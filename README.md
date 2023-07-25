@@ -1,6 +1,6 @@
-### PS_MSGraph
+## PS_MSGraph
 
-MS Graph related projects by RD
+#### MS Graph related projects by RD
 
 <!---
 #### Intune_App_Audit.ps1
