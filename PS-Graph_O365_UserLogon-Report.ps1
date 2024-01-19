@@ -3,7 +3,7 @@
 # List Office 365 Logins via MS Graph
 
 # Connect to Microsoft Graph:
-Connect-MGGraph -Environment USGov -Scopes "AuditLog.Read.All","User.Read.All" 
+Connect-MGGraph -Scopes "AuditLog.Read.All","User.Read.All" 
  
 # Set the Graph Profile:
 Select-MgProfile beta
