@@ -30,7 +30,7 @@ ForEach ($User in $AllUsers)
  
 $SigninLogs
  
-#Export Data to CSV
+#Export Data to CSV:
 $SigninLogs | Export-Csv -Path "C:\Temp\SigninLogs.csv" -NoTypeInformation
 
 #Orign / Source: https://www.sharepointdiary.com/2022/04/office-365-find-last-login-date-using-powershell.html
